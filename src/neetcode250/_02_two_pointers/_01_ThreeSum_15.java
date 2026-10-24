@@ -2,7 +2,7 @@ package neetcode250._02_two_pointers;
 
 import java.util.*;
 
-public class _0015_ThreeSum {
+public class _01_ThreeSum_15 {
     // TODO - Given an integer array we have to return a list of triplets who when added equate to 0
     // TODO - nums[i] + nums[j] + nums[k] == 0, and i, j and k should all be different
     // TODO - There should be no duplicate triplets

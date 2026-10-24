@@ -2,7 +2,7 @@ package neetcode250._02_two_pointers;
 
 import java.util.*;
 
-public class _0018_FourSum {
+public class _02_FourSum_18 {
     // TODO - Given an integer array and a target, we need to find quadruplet which when added equate to target
     // TODO - There shouldn't be a duplicate quadruplet in the resultant array
 

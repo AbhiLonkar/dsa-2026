@@ -2,7 +2,7 @@ package neetcode250._01_arrays_hashing;
 
 import java.util.HashMap;
 
-public class _0169_MajorityElement {
+public class _07_MajorityElement_169 {
     // Given an integer array we have to return an element who occurs more than nums.length/2 times
 
     // Let's put the elements and their counts in a hashmap and if at any point we encounter and element whose occurrence count is more than n/2 we return that element

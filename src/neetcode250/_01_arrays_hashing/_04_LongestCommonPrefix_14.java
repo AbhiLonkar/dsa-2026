@@ -1,6 +1,6 @@
 package neetcode250._01_arrays_hashing;
 
-public class _0014_LongestCommonPrefix {
+public class _04_LongestCommonPrefix_14 {
     public static String longestCommonPrefix(String[] strs) {
         StringBuilder res = new StringBuilder();
         boolean isCharacterPresent = true;

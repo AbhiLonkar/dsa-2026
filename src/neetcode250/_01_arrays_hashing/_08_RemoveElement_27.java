@@ -1,6 +1,6 @@
 package neetcode250._01_arrays_hashing;
 
-public class _0027_RemoveElement {
+public class _08_RemoveElement_27 {
     // Given an integer array and a value we need to remove all the occurrences of value in the array, move the remaining values to the start and return the count of the remaining values
 
     // ? Approach - Let's keep two pointers read and write, read will iterate over the entire array, and write which will be used to say at which position our target is present.

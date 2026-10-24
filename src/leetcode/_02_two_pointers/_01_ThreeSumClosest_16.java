@@ -3,7 +3,7 @@ package leetcode._02_two_pointers;
 import java.lang.reflect.Array;
 import java.util.*;
 
-public class _0016_ThreeSumClosest {
+public class _01_ThreeSumClosest_16 {
     // TODO - Given an integer array and a target sum we need to return the "sum" of the triplet which is the closest to the target
     // ex. nums = [-1,2,1,-4], target = 1
     // Triplets -

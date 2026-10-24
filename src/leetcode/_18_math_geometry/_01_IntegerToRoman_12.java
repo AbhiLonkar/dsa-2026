@@ -2,7 +2,7 @@ package leetcode._18_math_geometry;
 
 import java.util.*;
 
-public class _0012_IntegerToRoman {
+public class _01_IntegerToRoman_12 {
     // TODO - Given a number we have to convert it into its roman equivalent
     // 1 <= num <= 3999
 

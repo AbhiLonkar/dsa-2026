@@ -1,6 +1,6 @@
 package neetcode250._13_dp_1d;
 
-public class _0005_LongestPalindromicSubstring {
+public class _01_LongestPalindromicSubstring_5 {
     // TODO - We're given a string we have to return the longest palindromic substring
 
     // ? Approach - Double for loop and a palindrome checker function

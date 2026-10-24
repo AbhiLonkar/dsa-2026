@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class _0347_TopKFrequentElements {
+public class _10_TopKFrequentElements_347 {
     // TODO - Given an integer array and a count k we have to return k number of element with the highest frequency
     // TODO ex. nums = [1,2,2,2,2,2,3,3,3,4,4,4,4,7,7,7], k = 3
     // TODO 2 -> 5, 3 -> 3, 4 -> 4, 7 -> 3

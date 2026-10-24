@@ -3,7 +3,7 @@ package neetcode250._01_arrays_hashing;
 import java.util.HashMap;
 import java.util.HashSet;
 
-public class _0036_ValidSudoku {
+public class _02_ValidSudoku_36 {
     // TODO - Given a 9x9 matrix of numeric characters, we need to determine whether the sudoku board is valid
     // The conditions for validity -
     // Each row must contain the digits 1-9 without repetition.

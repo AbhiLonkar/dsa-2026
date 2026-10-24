@@ -3,7 +3,7 @@ package neetcode250._01_arrays_hashing;
 import java.lang.reflect.GenericDeclaration;
 import java.util.HashSet;
 
-public class _0036_ValidSudokuV2 {
+public class _11_ValidSudokuV2_36 {
     public static boolean isValidSudoku(char[][] sudoku) {
         // three conditions - a value shouldn't be repeated in a row
         // a value shouldn't repeat in a column

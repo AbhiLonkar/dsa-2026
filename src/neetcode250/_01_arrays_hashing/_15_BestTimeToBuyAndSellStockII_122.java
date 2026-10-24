@@ -1,6 +1,6 @@
 package neetcode250._01_arrays_hashing;
 
-public class _0122_BestTimeToBuyAndSellStockII {
+public class _15_BestTimeToBuyAndSellStockII_122 {
     // TODO - Given a prices array we have to return the max profit that we can get by buying and selling a stock
     // We are allowed to do any number of transactions (ie buy and sell as many times as we want)
     // But we can hold only 1 stock at a time (you cannot buy again before selling)

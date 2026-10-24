@@ -1,6 +1,6 @@
 package neetcode250._01_arrays_hashing;
 
-public class _0912_SortAnArray {
+public class _09_SortAnArray_912 {
     // TODO - Given an integer array we need to arrange the elements of the array in ascending order
     // TODO - we need to achieve this O(nlogn) time and need to use as little extra space as possible.
 

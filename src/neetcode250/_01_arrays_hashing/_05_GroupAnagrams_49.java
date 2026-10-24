@@ -2,7 +2,7 @@ package neetcode250._01_arrays_hashing;
 
 import java.util.*;
 
-public class _0049_GroupAnagrams {
+public class _05_GroupAnagrams_49 {
     // given an array of strings we have to return of list of grouped anagrams in a list
     // ex - str = ["act","pots","tops","cat","stop","hat"]
     // output - Output: [["hat"],["act", "cat"],["stop", "pots", "tops"]]

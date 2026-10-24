@@ -1,6 +1,6 @@
 package neetcode250._03_sliding_window;
 
-public class _0121_BestTimeToBuyAndSellStock {
+public class _01_BestTimeToBuyAndSellStock_121 {
     // Given a prices array we have to buy a stock at x position (buy) and y position (sell)
     // Note that y needs to be after x
 

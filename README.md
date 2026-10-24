@@ -15,11 +15,12 @@ src/
 
 ## Naming conventions
 
-- **File / class:** `_<LeetCode number, 4 digits>_<ProblemName>.java`, e.g. `_0049_GroupAnagrams.java`.
-  Java class names can't start with a digit, hence the leading underscore. Zero-padding keeps files sorted by number.
-- **Multiple attempts at one problem:** add a suffix, e.g. `_0049_GroupAnagramsOpt`, `_0036_ValidSudokuV2`.
+- **File / class:** `_<solve order>_<ProblemName>_<LeetCode number>.java`, e.g. `_05_GroupAnagrams_49.java`.
+  Solve order restarts in every topic folder, so files are listed in the order you solved them.
+  Java class names can't start with a digit, hence the leading underscore.
+- **Multiple attempts at one problem:** give each its own order number and a suffix, e.g. `_05_GroupAnagrams_49`, `_06_GroupAnagramsOpt_49`.
 - **Package:** `<list>.<topic>`, e.g. `package neetcode250._01_arrays_hashing;`. Every file must declare the package matching its folder.
-- **Finding a problem:** search by number or name in IntelliJ with `Shift Shift` / `Ctrl+N` (e.g. type `0049` or `Anagram`), or use the tables below.
+- **Finding a problem:** search by name or LeetCode number in IntelliJ with `Shift Shift` / `Ctrl+N` (e.g. type `Anagram` or `_49`), or use the tables below.
 
 ## Topic packages
 
@@ -46,32 +47,32 @@ src/
 
 ## NeetCode 250 (20 files)
 
-| # | Problem | Difficulty | Topic | Solution |
+| LC # | Problem | Difficulty | Topic | Solution |
 |---|---|---|---|---|
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | Arrays & Hashing | [_0001_TwoSum](src/neetcode250/_01_arrays_hashing/_0001_TwoSum.java) |
-| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | Arrays & Hashing | [_0014_LongestCommonPrefix](src/neetcode250/_01_arrays_hashing/_0014_LongestCommonPrefix.java) |
-| 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | Easy | Arrays & Hashing | [_0027_RemoveElement](src/neetcode250/_01_arrays_hashing/_0027_RemoveElement.java) |
-| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | Arrays & Hashing | [_0036_ValidSudoku](src/neetcode250/_01_arrays_hashing/_0036_ValidSudoku.java) |
-| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | Arrays & Hashing | [_0036_ValidSudokuV2](src/neetcode250/_01_arrays_hashing/_0036_ValidSudokuV2.java) |
-| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | Arrays & Hashing | [_0049_GroupAnagrams](src/neetcode250/_01_arrays_hashing/_0049_GroupAnagrams.java) |
-| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | Arrays & Hashing | [_0049_GroupAnagramsOpt](src/neetcode250/_01_arrays_hashing/_0049_GroupAnagramsOpt.java) |
-| 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | Arrays & Hashing | [_0075_SortColors](src/neetcode250/_01_arrays_hashing/_0075_SortColors.java) |
-| 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Medium | Arrays & Hashing | [_0122_BestTimeToBuyAndSellStockII](src/neetcode250/_01_arrays_hashing/_0122_BestTimeToBuyAndSellStockII.java) |
-| 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | Arrays & Hashing | [_0128_LongestConsecutiveSequence](src/neetcode250/_01_arrays_hashing/_0128_LongestConsecutiveSequence.java) |
-| 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | Arrays & Hashing | [_0169_MajorityElement](src/neetcode250/_01_arrays_hashing/_0169_MajorityElement.java) |
-| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | Arrays & Hashing | [_0238_ProductOfArrayExceptSelf](src/neetcode250/_01_arrays_hashing/_0238_ProductOfArrayExceptSelf.java) |
-| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | Arrays & Hashing | [_0242_ValidAnagram](src/neetcode250/_01_arrays_hashing/_0242_ValidAnagram.java) |
-| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | Arrays & Hashing | [_0347_TopKFrequentElements](src/neetcode250/_01_arrays_hashing/_0347_TopKFrequentElements.java) |
-| 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | Medium | Arrays & Hashing | [_0912_SortAnArray](src/neetcode250/_01_arrays_hashing/_0912_SortAnArray.java) |
-| 15 | [3Sum](https://leetcode.com/problems/3sum/) | Medium | Two Pointers | [_0015_ThreeSum](src/neetcode250/_02_two_pointers/_0015_ThreeSum.java) |
-| 18 | [4Sum](https://leetcode.com/problems/4sum/) | Medium | Two Pointers | [_0018_FourSum](src/neetcode250/_02_two_pointers/_0018_FourSum.java) |
-| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | Sliding Window | [_0121_BestTimeToBuyAndSellStock](src/neetcode250/_03_sliding_window/_0121_BestTimeToBuyAndSellStock.java) |
-| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | 1-D Dynamic Programming | [_0005_LongestPalindromicSubstring](src/neetcode250/_13_dp_1d/_0005_LongestPalindromicSubstring.java) |
-| 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | Math & Geometry | [_0013_RomanToInteger](src/neetcode250/_18_math_geometry/_0013_RomanToInteger.java) |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | Arrays & Hashing | [_01_TwoSum_1](src/neetcode250/_01_arrays_hashing/_01_TwoSum_1.java) |
+| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | Arrays & Hashing | [_02_ValidSudoku_36](src/neetcode250/_01_arrays_hashing/_02_ValidSudoku_36.java) |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | Arrays & Hashing | [_03_ValidAnagram_242](src/neetcode250/_01_arrays_hashing/_03_ValidAnagram_242.java) |
+| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | Arrays & Hashing | [_04_LongestCommonPrefix_14](src/neetcode250/_01_arrays_hashing/_04_LongestCommonPrefix_14.java) |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | Arrays & Hashing | [_05_GroupAnagrams_49](src/neetcode250/_01_arrays_hashing/_05_GroupAnagrams_49.java) |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | Arrays & Hashing | [_06_GroupAnagramsOpt_49](src/neetcode250/_01_arrays_hashing/_06_GroupAnagramsOpt_49.java) |
+| 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | Arrays & Hashing | [_07_MajorityElement_169](src/neetcode250/_01_arrays_hashing/_07_MajorityElement_169.java) |
+| 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | Easy | Arrays & Hashing | [_08_RemoveElement_27](src/neetcode250/_01_arrays_hashing/_08_RemoveElement_27.java) |
+| 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | Medium | Arrays & Hashing | [_09_SortAnArray_912](src/neetcode250/_01_arrays_hashing/_09_SortAnArray_912.java) |
+| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | Arrays & Hashing | [_10_TopKFrequentElements_347](src/neetcode250/_01_arrays_hashing/_10_TopKFrequentElements_347.java) |
+| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | Arrays & Hashing | [_11_ValidSudokuV2_36](src/neetcode250/_01_arrays_hashing/_11_ValidSudokuV2_36.java) |
+| 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | Arrays & Hashing | [_12_SortColors_75](src/neetcode250/_01_arrays_hashing/_12_SortColors_75.java) |
+| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | Arrays & Hashing | [_13_ProductOfArrayExceptSelf_238](src/neetcode250/_01_arrays_hashing/_13_ProductOfArrayExceptSelf_238.java) |
+| 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | Arrays & Hashing | [_14_LongestConsecutiveSequence_128](src/neetcode250/_01_arrays_hashing/_14_LongestConsecutiveSequence_128.java) |
+| 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Medium | Arrays & Hashing | [_15_BestTimeToBuyAndSellStockII_122](src/neetcode250/_01_arrays_hashing/_15_BestTimeToBuyAndSellStockII_122.java) |
+| 15 | [3Sum](https://leetcode.com/problems/3sum/) | Medium | Two Pointers | [_01_ThreeSum_15](src/neetcode250/_02_two_pointers/_01_ThreeSum_15.java) |
+| 18 | [4Sum](https://leetcode.com/problems/4sum/) | Medium | Two Pointers | [_02_FourSum_18](src/neetcode250/_02_two_pointers/_02_FourSum_18.java) |
+| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | Sliding Window | [_01_BestTimeToBuyAndSellStock_121](src/neetcode250/_03_sliding_window/_01_BestTimeToBuyAndSellStock_121.java) |
+| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | 1-D Dynamic Programming | [_01_LongestPalindromicSubstring_5](src/neetcode250/_13_dp_1d/_01_LongestPalindromicSubstring_5.java) |
+| 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | Math & Geometry | [_01_RomanToInteger_13](src/neetcode250/_18_math_geometry/_01_RomanToInteger_13.java) |
 
 ## LeetCode (not on NeetCode 250) (2 files)
 
-| # | Problem | Difficulty | Topic | Solution |
+| LC # | Problem | Difficulty | Topic | Solution |
 |---|---|---|---|---|
-| 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | Medium | Two Pointers | [_0016_ThreeSumClosest](src/leetcode/_02_two_pointers/_0016_ThreeSumClosest.java) |
-| 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | Medium | Math & Geometry | [_0012_IntegerToRoman](src/leetcode/_18_math_geometry/_0012_IntegerToRoman.java) |
+| 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | Medium | Two Pointers | [_01_ThreeSumClosest_16](src/leetcode/_02_two_pointers/_01_ThreeSumClosest_16.java) |
+| 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | Medium | Math & Geometry | [_01_IntegerToRoman_12](src/leetcode/_18_math_geometry/_01_IntegerToRoman_12.java) |

@@ -1,6 +1,6 @@
 package neetcode250._01_arrays_hashing;
 
-public class _0242_ValidAnagram {
+public class _03_ValidAnagram_242 {
     public static boolean isAnagram(String s, String t){
         int[] countOfChars = new int[26];
         for(int i = 0; i<s.length(); i++){

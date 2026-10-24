@@ -1,6 +1,6 @@
 package neetcode250._01_arrays_hashing;
 
-public class _0075_SortColors {
+public class _12_SortColors_75 {
 
     // TODO - Given an integer array consisting of only 0 (red), 1 (while), 2 (blue) we need to sort these values in increasing order in place
     // TODO - follow up: Can we do it single pass with constant extra space?

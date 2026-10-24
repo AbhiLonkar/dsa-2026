@@ -2,7 +2,7 @@ package neetcode250._01_arrays_hashing;
 
 import java.util.HashMap;
 
-public class _0001_TwoSum {
+public class _01_TwoSum_1 {
     // TODO: Given an integer array and a target element we need to return the indices of elements which add up to the target
 
     public static int[] twoSum(int[] arr, int target) {

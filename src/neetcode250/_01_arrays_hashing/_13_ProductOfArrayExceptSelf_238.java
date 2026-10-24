@@ -1,6 +1,6 @@
 package neetcode250._01_arrays_hashing;
 
-public class _0238_ProductOfArrayExceptSelf {
+public class _13_ProductOfArrayExceptSelf_238 {
     // TODO - Given an integer array we have to return an output array wherein each element of the output array is a product of all the elements besides it
     // ex. i/p -> [1,2,4,6], o/p -> [48, 24, 12, 8]
 

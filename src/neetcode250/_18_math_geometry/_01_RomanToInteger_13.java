@@ -2,7 +2,7 @@ package neetcode250._18_math_geometry;
 
 import java.util.HashMap;
 
-public class _0013_RomanToInteger {
+public class _01_RomanToInteger_13 {
     // TODO - Given a string which has roman characters we need to convert the said string into a integer
 
     public static int romanToInteger(String s){

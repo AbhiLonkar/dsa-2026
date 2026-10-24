@@ -3,7 +3,7 @@ package neetcode250._01_arrays_hashing;
 import java.io.Flushable;
 import java.util.*;
 
-public class _0049_GroupAnagramsOpt {
+public class _06_GroupAnagramsOpt_49 {
     // hint instead of comparing a string with every other string why don't we compare the sorted strings themselves
 
     public static String sortedString(String s) {

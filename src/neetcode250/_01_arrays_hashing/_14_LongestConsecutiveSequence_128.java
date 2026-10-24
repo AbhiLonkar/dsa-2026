@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 
 
-public class _0128_LongestConsecutiveSequence {
+public class _14_LongestConsecutiveSequence_128 {
     // ? this algo is working in O(nlogn) time due to the sorting based approach
     // How to solve it in O(N) time?
     public static int longestConsecutiveSequence(int[] arr) {

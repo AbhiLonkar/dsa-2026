@@ -1,6 +1,5 @@
 package neetcode250._01_arrays_hashing;
 
-import java.util.HashMap;
 import java.util.HashSet;
 
 public class _02_ValidSudoku_36 {
